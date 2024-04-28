@@ -1,0 +1,17 @@
+baseURL = 'https://termuxdev314.github.io/termuxdev'
+languageCode = 'en-us'
+title = 'Termux-Dev'
+
+theme = "m10c"
+
+[params]
+  author = "Alexander Krefting"
+  description = "Over Me"
+  avatar = "/assets/pictures/avatar.jpg"
+  menu_item_separator = " - "  # HTML ist erlaubt
+  favicon = "/assets/pictures/favicon.ico"
+
+[[menu.main]]
+  identifier = "Menu"
+  name = "Home Suite"
+  url = "/content/index.md"
